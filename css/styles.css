@@ -16,21 +16,29 @@
 #rowone {
   padding: 5px;
 }
+
 #title {
   height: 143px;
   padding-top: 30px;
   padding-bottom: 60px;
   text-align: right;
 }
+
 #title h1 {
   font-size: 40px;
   font-weight: bold;
 }
+
 @media (max-width: 768px) {
   #title, #picholder {
     text-align: center;
   }
+  #title {
+    height: 114px;
+    padding-bottom: 30px;
+  }
 }
+
 .ulsize {
   font-size: 20px;
 }
