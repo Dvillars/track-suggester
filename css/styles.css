@@ -59,4 +59,22 @@
 }
 .ulsize li:hover {
   background-color: #4a4a4a;
+  cursor: default;
+}
+
+#rowthree {
+  padding: 5px;
+}
+.tabed {
+  margin-left: 20px;
+}
+.click {
+  font-weight: bold;
+  color: #17A5A5;
+  text-shadow: -1px 1px #4a4a4a;
+}
+.click:hover {
+  color: #4a4a4a;
+  text-shadow: -1px 1px 3px #17A5A5;
+  cursor: pointer;
 }
