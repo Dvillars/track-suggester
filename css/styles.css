@@ -57,9 +57,9 @@
   padding: 16px;
   color: white;
 }
-.ulsize li:hover {
-  background-color: #4a4a4a;
+.ulsize li:hover{
   cursor: default;
+  background-color: #4a4a4a;
 }
 
 #rowthree {
@@ -78,6 +78,17 @@
   text-shadow: -1px 1px 3px #17A5A5;
   cursor: pointer;
 }
+.curse {
+  cursor: default;
+}
 #rr, #pd, #ja, #cd, #cn, form {
   display: none;
+}
+#ptag {
+  font-size: 15px;
+}
+.fr {
+  margin: 40px;
+  color: white;
+  background-color: #17A5A5;
 }
