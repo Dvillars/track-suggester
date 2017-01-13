@@ -78,3 +78,6 @@
   text-shadow: -1px 1px 3px #17A5A5;
   cursor: pointer;
 }
+#rr, #pd, #ja, #cd, #cn, form {
+  display: none;
+}
