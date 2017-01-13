@@ -1,5 +1,36 @@
-.bgc {
-  color: #393939;
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+.mcs {
+  color: #4a4a4a;
   border: 5px solid #17A5A5;
   border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+}
+@media (max-width: 768px) {
+  .mcs {
+    margin: 3px;
+  }
+}
+
+#rowone {
+  padding: 5px;
+}
+#title {
+  height: 143px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: right;
+}
+#title h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  #title, #picholder {
+    text-align: center;
+  }
+}
+.ulsize {
+  font-size: 20px;
 }
