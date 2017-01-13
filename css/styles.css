@@ -16,19 +16,16 @@
 #rowone {
   padding: 5px;
 }
-
 #title {
   height: 143px;
   padding-top: 30px;
   padding-bottom: 60px;
   text-align: right;
 }
-
 #title h1 {
   font-size: 40px;
   font-weight: bold;
 }
-
 @media (max-width: 768px) {
   #title, #picholder {
     text-align: center;
@@ -39,6 +36,27 @@
   }
 }
 
+
+#rowtwo {
+  background-color: #282828;
+  color: white;
+  padding: 5px;
+}
 .ulsize {
   font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282828;
+}
+.ulsize li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: white;
+}
+.ulsize li:hover {
+  background-color: #4a4a4a;
 }
